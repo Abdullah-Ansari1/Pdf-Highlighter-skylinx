@@ -81,7 +81,7 @@ const updateHighlight = (highlightId, position, content) => {
 //useEffect for changing the scrolling hash whenever point to a new text
 useEffect(() => {
     window.addEventListener("hashchange", scrollToHighlightFromHash, false);
-}, []);
+});
 
 return (
     <div className="App" style={{ display: "flex", height: "100vh" }}>

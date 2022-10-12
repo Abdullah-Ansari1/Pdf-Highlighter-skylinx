@@ -1,6 +1,6 @@
 import React from "react"
 
-const updateHash = highlight => {
+const updateHash = (highlight) => {
   document.location.hash = `highlight-${highlight.id}`
 }
 
