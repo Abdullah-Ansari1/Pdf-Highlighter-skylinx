@@ -11,7 +11,7 @@ export function Sidebar({ highlights, toggleDocument, resetHighlights }) {
         <h2 style={{ marginBottom: "1rem" }}>react-pdf-highlighter</h2>
         <p>
           <small>
-            To create area highlight hold ⌥ Option key (Alt), then click and
+            To create area highlight screenshot, hold ⌥ Option key (Alt), then click and
             drag.
           </small>
         </p>
