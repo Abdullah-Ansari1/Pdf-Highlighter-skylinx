@@ -22,7 +22,7 @@ const HighlightPopup = ({ comment }) =>
   ) : null
 
 const PRIMARY_PDF_URL = "https://arxiv.org/pdf/1708.08021.pdf"
-const SECONDARY_PDF_URL = "https://cdn.filestackcontent.com/wcrjf9qPTCKXV3hMXDwK"
+const SECONDARY_PDF_URL = "https://adminzd.skylinxtech.com/storage/edit_mode/projects/315/specs/mmm.pdf"
 
 const searchParams = new URLSearchParams(document.location.search)
 
@@ -76,10 +76,11 @@ export default class Classcomponent extends Component {
         const { highlights } = this.state
     
         console.log("Saving highlight", highlight)
-    
+        console.table("Saving highlight", highlight)
         this.setState({
           highlights: [{ ...highlight, id: getNextId() }, ...highlights]
         })
+        console.log(highlights);
       }
     
       updateHighlight(highlightId, position, content) {

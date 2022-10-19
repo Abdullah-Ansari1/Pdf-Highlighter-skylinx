@@ -316,5 +316,40 @@ export const testHighlights = {
       },
       id: "29668244118038056"
     }
+  ],
+  "https://adminzd.skylinxtech.com/storage/edit_mode/projects/315/specs/mmm.pdf": [
+    {
+      content: {
+        text: "STIP 106"
+      },
+      position: {
+        boundingRect: {
+          x1: 835.7503662109375,
+          y1: 116.18718719482422,
+          x2: 901.3111572265625,
+          y2: 133.18719482421875,
+          width: 1008,
+          height: 1660.235294117647,
+          pageNumber: 1
+        },
+        rects: [
+          {
+            x1: 835.7503662109375,
+            y1: 116.18718719482422,
+            x2: 901.3111572265625,
+            y2: 133.18719482421875,
+            width: 1008,
+            height: 1660.235294117647,
+            pageNumber: 1
+          }
+        ],
+        pageNumber: 1
+      },
+      comment: {
+        text: "Testing",
+        emoji: "😎"
+      },
+      id: "29668244118038056"
+    },
   ]
 }
