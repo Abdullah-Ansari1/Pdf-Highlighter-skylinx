@@ -8,13 +8,13 @@ export function Sidebar({ highlights, toggleDocument, resetHighlights }) {
   return (
     <div className="sidebar" style={{ width: "25vw" }}>
       <div className="description" style={{ padding: "1rem" }}>
-        <h2 style={{ marginBottom: "1rem" }}>react-pdf-highlighter</h2>
-        <p>
+        <h2 style={{ marginBottom: "1rem" }}>Highlighted Text</h2>
+        {/* <p>
           <small>
             To create area highlight screenshot, hold ⌥ Option key (Alt), then click and
             drag.
           </small>
-        </p>
+        </p> */}
       </div>
 
       <ul className="sidebar__highlights">
